@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class CGCManager {
     static Logger logger = LoggerFactory.getLogger(CGCManager.class);
 
-    // Implemented as a singleton so we can be sure that only one object is reading
+    // Implemented as a singleton so we can be sure that only one CGCManager object is reading
     // from standard input at any moment
     private static CGCManager managerInstance = null;
 

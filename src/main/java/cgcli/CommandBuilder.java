@@ -11,7 +11,7 @@ public class CommandBuilder {
     static Logger logger = LoggerFactory.getLogger(CommandBuilder.class);
 
     //Following constants are just defined as a part of a clean code and DRY rule (Don't repeat yourself).
-    //Instead of changing String value on every single place where we use it, it is much easier to chage
+    //Instead of changing String value on every single place where we use it, it is much easier to change
     //constant value in its definition.
 
     //REST API operations that are currently supported by CLI
@@ -37,6 +37,7 @@ public class CommandBuilder {
     private static final String START_COMMAND_KEYWORD = "cgcli";
     private static final String TOKEN_KEYWORD = "--token";
     private static final String PROJECT_KEYWORD = "--project";
+    private static final String PARENT_KEYWORD = "--parent";
     private static final String FILE_KEYWORD = "--file";
     private static final String TARGET_KEYWORD = "--target";
 
@@ -61,7 +62,7 @@ public class CommandBuilder {
                 command = commandSelectionMap.get(commandType).create(commandParts, token);
             }
         } catch (Exception ex){
-            logger.error("Exception thrown while parsing command line input : " + ex.getMessage());
+            logger.error("\nException thrown while parsing command line input : " + ex.getMessage());
             logger.info(CGCManager.getDocumentation());
         }
         return command;
@@ -135,8 +136,10 @@ public class CommandBuilder {
 
     private static Command createListFilesCommand(String[] commandParts, String token) throws Exception {
         validateFileListCommand(commandParts);
-        String projectId = commandParts[FileListCommand.PROJECT_ID_INDEX];
-        FileListCommand command = new FileListCommand(token, projectId);
+        String requiredTag = commandParts[FileListCommand.PROJECT_ID_INDEX - 1].equals(PROJECT_KEYWORD) ? "?project=" : "?parent=" ;
+        String id = requiredTag + commandParts[FileListCommand.PROJECT_ID_INDEX];
+
+        FileListCommand command = new FileListCommand(token, id);
 
         String queryParams = QueryParamFinder.generateGetRequestParams(FileListCommand.allowedQueryParams, commandParts, FileListCommand.MIN_LENGTH, false);
         if (!queryParams.equals("")){
@@ -167,8 +170,8 @@ public class CommandBuilder {
         if (commandParts.length < FileListCommand.MIN_LENGTH){
             throw new Exception("Not enough arguments passed to Files List command");
         }
-        if (!commandParts[FileListCommand.PROJECT_ID_INDEX - 1].equals(PROJECT_KEYWORD)){
-            throw new Exception("File list command should have --project tag specified");
+        if (!commandParts[FileListCommand.PROJECT_ID_INDEX - 1].equals(PROJECT_KEYWORD) && !commandParts[FileListCommand.PROJECT_ID_INDEX -1].equals(PARENT_KEYWORD)){
+            throw new Exception("File list command should have --project or --parent tag specified");
         }
     }
 

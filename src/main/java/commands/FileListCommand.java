@@ -13,8 +13,6 @@ public class FileListCommand extends Command {
 
     public static HashSet<String> allowedQueryParams = new HashSet<String>(){
         {
-            add("project");
-            add("parent");
             add("name");
             add("metadata");
             add("origin.task");
@@ -38,8 +36,8 @@ public class FileListCommand extends Command {
 
     public void execute(){
         try{
-            StringBuffer targetUrl = new StringBuffer(BASEPATH + ENDPOINT);
-            targetUrl.append("?project=" + projectName);
+            StringBuffer targetUrl = new StringBuffer(BASEPATH + ENDPOINT + projectName);
+
             if (queryParams != null){
                 targetUrl.append(queryParams);
             }
