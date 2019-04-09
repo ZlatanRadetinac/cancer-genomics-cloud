@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.radetinac.zlatan'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.cedarsoftware', name: 'json-io', version: '4.8.0'
+    compile group: 'org.slf4j', name:'slf4j-api', version: '1.7.2'
+    compile group: 'org.slf4j', name:'slf4j-log4j12', version: '1.7.2'
+}

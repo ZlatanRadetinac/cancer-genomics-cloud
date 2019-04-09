@@ -1,0 +1,481 @@
+2019-04-08 19:17:58 [main] INFO :: Cancer genomics cloud tool has been started. Enter your commands...
+2019-04-08 19:19:19 [main] INFO :: Cancer genomics cloud tool has been started. Enter your commands...
+2019-04-08 19:19:36 [main] INFO :: Cancer genomics cloud tool has been started. Enter your commands...
+2019-04-08 19:19:56 [main] INFO :: Cancer genomics cloud tool has been started. Enter your commands...
+2019-04-08 21:54:12 [main] INFO :: Cancer genomic cloud CLI tool has been started
+2019-04-08 21:58:18 [main] INFO :: Cancer genomic cloud CLI tool has been started
+2019-04-08 21:59:08 [main] INFO :: Cancer genomic cloud CLI tool has been started
+2019-04-09 13:47:40 [main] INFO :: Cancer genomic cloud CLI tool has been started
+2019-04-09 15:19:15 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown operation
+2019-04-09 15:19:15 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:19:15 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown command
+2019-04-09 15:19:15 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:19:15 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to file list command
+2019-04-09 15:19:15 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:19:15 [Test worker] ERROR:: Exception thrown while parsing command line input : Command must start with cgcli
+2019-04-09 15:19:15 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:19:15 [Test worker] ERROR:: Exception thrown while parsing command line input : Disallowed query parameters are passed as a part of a command
+2019-04-09 15:19:15 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:19:15 [Test worker] ERROR:: Exception thrown while parsing command line input : File stat command should have --file tag specified
+2019-04-09 15:19:15 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:19:15 [Test worker] ERROR:: Exception thrown while parsing command line input : Disallowed query parameters are passed as a part of a command
+2019-04-09 15:19:15 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:19:15 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to Files List command
+2019-04-09 15:19:15 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:35:10 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown operation
+2019-04-09 15:35:10 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:35:10 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown command
+2019-04-09 15:35:10 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:35:10 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to file list command
+2019-04-09 15:35:10 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:35:10 [Test worker] ERROR:: Exception thrown while parsing command line input : Command must start with cgcli
+2019-04-09 15:35:10 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:35:10 [Test worker] ERROR:: Exception thrown while parsing command line input : Disallowed query parameters are passed as a part of a command
+2019-04-09 15:35:10 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:35:10 [Test worker] ERROR:: Exception thrown while parsing command line input : File stat command should have --file tag specified
+2019-04-09 15:35:10 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:35:10 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to Files List command
+2019-04-09 15:35:10 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:36:48 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown operation
+2019-04-09 15:36:48 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:36:48 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown command
+2019-04-09 15:36:48 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:36:48 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to file list command
+2019-04-09 15:36:48 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:36:48 [Test worker] ERROR:: Exception thrown while parsing command line input : Command must start with cgcli
+2019-04-09 15:36:48 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:36:48 [Test worker] ERROR:: Exception thrown while parsing command line input : Disallowed query parameters are passed as a part of a command
+2019-04-09 15:36:48 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:36:48 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to Files List command
+2019-04-09 15:36:48 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:37:32 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown operation
+2019-04-09 15:37:32 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:37:32 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown command
+2019-04-09 15:37:32 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:37:32 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to file list command
+2019-04-09 15:37:32 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:37:32 [Test worker] ERROR:: Exception thrown while parsing command line input : Command must start with cgcli
+2019-04-09 15:37:32 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:37:32 [Test worker] ERROR:: Exception thrown while parsing command line input : Disallowed query parameters are passed as a part of a command
+2019-04-09 15:37:32 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:37:32 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to Files List command
+2019-04-09 15:37:32 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:07 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown operation
+2019-04-09 15:46:07 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:07 [Test worker] ERROR:: Exception thrown while parsing command line input : Some arguments missing in file update command
+2019-04-09 15:46:07 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:07 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown command
+2019-04-09 15:46:07 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:07 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to file list command
+2019-04-09 15:46:07 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:07 [Test worker] ERROR:: Exception thrown while parsing command line input : Command must start with cgcli
+2019-04-09 15:46:07 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:07 [Test worker] ERROR:: Exception thrown while parsing command line input : Disallowed query parameters are passed as a part of a command
+2019-04-09 15:46:07 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:07 [Test worker] ERROR:: Exception thrown while parsing command line input : Some arguments missing for File Download command
+2019-04-09 15:46:07 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:07 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to Files List command
+2019-04-09 15:46:07 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:19 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown operation
+2019-04-09 15:46:19 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:19 [Test worker] ERROR:: Exception thrown while parsing command line input : Some arguments missing in file update command
+2019-04-09 15:46:19 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:19 [Test worker] ERROR:: Exception thrown while parsing command line input : Unknown command
+2019-04-09 15:46:19 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:19 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to file list command
+2019-04-09 15:46:19 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:19 [Test worker] ERROR:: Exception thrown while parsing command line input : Command must start with cgcli
+2019-04-09 15:46:19 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:19 [Test worker] ERROR:: Exception thrown while parsing command line input : Disallowed query parameters are passed as a part of a command
+2019-04-09 15:46:19 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:19 [Test worker] ERROR:: Exception thrown while parsing command line input : Some arguments missing for File Download command
+2019-04-09 15:46:19 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
+2019-04-09 15:46:19 [Test worker] ERROR:: Exception thrown while parsing command line input : Not enough arguments passed to Files List command
+2019-04-09 15:46:19 [Test worker] INFO :: Usage:
+cgccli --token {token} {operation} [ --project {project_name} | --file {file_id} ([key-value]| --dest {destination})]
+Where operations include : 
+projects list - Listing all of your projects
+files list - Listing all of your projects in specified {project name}
+file stat - Showing details about file with specified {file_id}
+file update - Updates file with {file_id} with specified key-value pairs
+file download - Downloads file with {file_id} to a specified destination
+
+
